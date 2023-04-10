@@ -1,0 +1,20 @@
+{
+	"name": "typescript",
+	"version": "1.0.0",
+	"description": "Belajar TypeScript",
+	"main": "index.js",
+	"author": "Zidan",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon --config nodemon.json src/index.ts",
+		"dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@types/node": "^18.15.11",
+		"ts-node": "^10.9.1"
+	}
+}
